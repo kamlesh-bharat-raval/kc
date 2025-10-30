@@ -1,0 +1,294 @@
+/* ========== GLOBAL PRODUCT PAGE ========== */
+.flipkart-product-page {
+  font-family: "Poppins", sans-serif;
+  color: #222;
+  padding: 30px;
+  background: #f9fafb;
+}
+
+/* ========== CATEGORY NAVIGATION ========== */
+.category-nav {
+  font-size: 14px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.category-nav span {
+  font-weight: 600;
+  margin-right: 10px;
+  color: #444;
+}
+
+.category-nav a {
+  text-decoration: none;
+  color: #0077ff;
+  font-weight: 500;
+  margin: 0 6px;
+  transition: color 0.2s ease;
+}
+
+.category-nav a:hover {
+  color: #0051b3;
+}
+
+/* ========== MAIN PRODUCT SECTION ========== */
+.product-main {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+/* -------- Left Section -------- */
+.left-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-img {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.main-img:hover {
+  transform: scale(1.03);
+}
+
+
+/* ✅ Action Buttons Section */
+.action-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* ✅ Equal Size Buttons */
+.action-buttons .add-cart,
+.action-buttons .wishlist-btn {
+  flex: 1;
+  height: 48px;
+  min-width: 160px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 🛒 Add to Cart */
+.action-buttons .add-cart {
+  background: #28a745;
+  color: #fff;
+  border: 2px solid #28a745;
+}
+.action-buttons .add-cart:hover {
+  background: #218838;
+  border-color: #218838;
+}
+
+/* 🤍 Add to Wishlist */
+.action-buttons .wishlist-btn {
+  background: #fff;
+  color: #e91e63;
+  border: 2px solid #e91e63;
+}
+.action-buttons .wishlist-btn:hover {
+  background: #ffe6ea;
+}
+
+/* ❤️ Active Wishlist (Remove) */
+.action-buttons .wishlist-btn.active {
+  background: #e91e63;
+  color: #fff;
+  border: 2px solid #e91e63;
+}
+
+
+/* -------- Right Section -------- */
+.right-section {
+  flex: 1;
+}
+
+.brand-name {
+  color: #777;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.product-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+/* Price Box */
+.price-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.current-price {
+  font-size: 22px;
+  font-weight: 700;
+  color: #d32f2f;
+}
+
+.old-price {
+  font-size: 16px;
+  color: #888;
+  text-decoration: line-through;
+}
+
+.discount {
+  font-size: 15px;
+  color: #388e3c;
+  font-weight: 600;
+}
+
+/* Ratings */
+.rating {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Size Options */
+.size-options {
+  margin-bottom: 20px;
+}
+
+.size-options span {
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.size-btn {
+  border: 1px solid #ccc;
+  padding: 8px 14px;
+  margin: 0 5px;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.size-btn:hover {
+  border-color: #0077ff;
+  color: #0077ff;
+}
+
+.size-btn.active {
+  background: #0077ff;
+  color: #fff;
+  border-color: #0077ff;
+}
+
+/* Offers */
+.offers {
+  background: #fff8e1;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  border-left: 4px solid #ff9800;
+}
+
+.offers h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #444;
+}
+
+.offers ul {
+  padding-left: 20px;
+  list-style: none;
+}
+
+.offers li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Suggestions Section */
+.suggestions-section {
+  margin-top: 30px;
+}
+
+.suggestions-section h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.suggestions {
+  display: flex;
+  gap: 20px;
+}
+
+.suggestion-item {
+  flex: 1;
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.suggestion-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.suggestion-item img {
+  width: 100%;
+  max-width: 140px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.suggestion-item p {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.suggestion-item span {
+  font-size: 15px;
+  color: #d32f2f;
+  font-weight: 600;
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 900px) {
+  .product-main {
+    flex-direction: column;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+  }
+
+  .suggestions {
+    flex-direction: column;
+  } 
+}
