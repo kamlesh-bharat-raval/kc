@@ -170,15 +170,15 @@ body {
   border-radius: 2px;
 }
 
-/* Product Grid */
+
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 25px;
   margin-top: 30px;
 }
 
-/* Product Card */
+
 .product-card {
   background: #fff;
   border-radius: 12px;
@@ -282,7 +282,7 @@ body {
   border-radius: 6px;
   flex: 1;
   text-align: center;
-  box-shadow: none; /* 👈 optional: remove box-shadow to match */
+  box-shadow: none;
 }
 
 .wishlist-btn.active:hover {
@@ -464,7 +464,7 @@ body {
 
 .category-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 30px;
   max-width: 1200px;
   margin: 0 auto;
@@ -547,17 +547,17 @@ body {
   content: "";
   width: 80px;
   height: 4px;
-  background: #28a745; /* green underline for consistency */
+  background: #28a745;
   display: block;
   margin: 10px auto 0;
   border-radius: 2px;
 }
 
-/* Product Grid */
+
 .trending-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 25px;
+  grid-template-columns: repeat(4, 1fr);;
+  gap: 30px;
   margin-top: 30px;
 }
 
@@ -597,7 +597,7 @@ body {
 .trending-card p {
   font-size: 1rem;
   font-weight: 600;
-  color: #28a745; /* optional: price green to match button */
+  color: #28a745; 
   margin-bottom: 12px;
 }
 
@@ -735,7 +735,7 @@ body {
 }
 
 .newsletter-form button:hover {
-  background: #e63946; /* red hover */
+  background: #e63946; 
 }
 
 

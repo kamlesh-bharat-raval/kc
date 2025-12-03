@@ -8,9 +8,10 @@ import Cart from "./components/pages/Cart";
 import Wishlist from "./components/pages/Wishlist";
 import Contact from "./components/pages/Contact";
 import ProductDetails from "./components/pages/ProductDetails";
-import CategoryPage from "./components/pages/CategoryPage"; // ⬅️ ADDED: CategoryPage component import
+import CategoryPage from "./components/pages/CategoryPage"; 
 import { CartProvider } from "./context/CartContext";
 import { WishlistProvider } from "./context/WishlistContext";
+// import ScrollToTop from "./components/ScrollToTop";
 
 function Shop() {
   return <h1>Shop Page</h1>;
@@ -34,7 +35,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
-          <Route path="/product/:id" element={<ProductDetails />} /> {/* ⬅️ FIXED: Kept this correct route */}
+          <Route path="/product/:id" element={<ProductDetails />} /> 
           <Route path="/cart" element={<Cart />} />
           <Route path="/wishlist" element={<Wishlist />} />
           <Route path="/shop" element={<Shop />} />
@@ -42,7 +43,8 @@ function App() {
           <Route path="/pages" element={<Pages />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/category/:categoryName" element={<CategoryPage />} /> {/* ⬅️ FIXED: Category route added */}
+          <Route path="/category/:categoryName" element={<CategoryPage />} />
+          
         </Routes>
 
         <Footer />
