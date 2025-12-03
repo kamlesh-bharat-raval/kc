@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kc/static/css/main.8ec36d83.css",
-    "main.js": "/kc/static/js/main.8cc89359.js",
+    "main.css": "/kc/static/css/main.cd3f3837.css",
+    "main.js": "/kc/static/js/main.fc0d77b2.js",
     "static/media/woman2.jpg": "/kc/static/media/woman2.15a6b5f82196579a7716.jpg",
     "static/media/man3.jpg": "/kc/static/media/man3.ae061eeabc0a274f637f.jpg",
     "static/media/kids7.jpg": "/kc/static/media/kids7.251562da421951b25bf9.jpg",
@@ -39,11 +39,11 @@
     "static/media/vistora logo1.jpg": "/kc/static/media/vistora logo1.3b402fc177b45d7363fd.jpg",
     "static/media/acce4.jpg": "/kc/static/media/acce4.b8989f02658471f5d342.jpg",
     "index.html": "/kc/index.html",
-    "main.8ec36d83.css.map": "/kc/static/css/main.8ec36d83.css.map",
-    "main.8cc89359.js.map": "/kc/static/js/main.8cc89359.js.map"
+    "main.cd3f3837.css.map": "/kc/static/css/main.cd3f3837.css.map",
+    "main.fc0d77b2.js.map": "/kc/static/js/main.fc0d77b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ec36d83.css",
-    "static/js/main.8cc89359.js"
+    "static/css/main.cd3f3837.css",
+    "static/js/main.fc0d77b2.js"
   ]
 }
